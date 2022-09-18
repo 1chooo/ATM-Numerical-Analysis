@@ -43,13 +43,13 @@ def countErrorCriterion(n) :
 
     return errorCriterion
 
-    
+
 # Build the approximate estimate of the error : εa
 
 def countApproximateEstimateError(currentApproximation, previousApproximation) :
     approximateError = currentApproximation - previousApproximation
 
-    if currentApproximate == 0 :    # The first and second value of cosine tylor polynomial is 0.0 and 1.0; therefore we have to pass them.
+    if currentApproximation == 0 :    # The first and second value of cosine tylor polynomial is 0.0 and 1.0; therefore we have to pass them.
         return 999
     else :
         approximateEstimateError = abs((approximateError / currentApproximation) * 100)
