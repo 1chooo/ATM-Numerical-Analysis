@@ -32,28 +32,34 @@ def tylorPolynomial(n, x) :     # Build cosine tylor polynomial
 PI = math.pi
 n = 5
 errorCriterion = Error.countErrorCriterion(n)
-count = 0
+loopCount = 0
 currentApproximate = 0.0
 previousApproximate = 0.0
+trueValue = cos(2 * PI)
+print(f"True value of cos(0): {trueValue}.")
 
-print(f"The error criterion is: {errorCriterion}, and n = {n}.\n\nStart the estimate: ")
+# print((1.00000000000000 - 0.999978232974615 / 1.00000000000000) * 100)
+print(f"The error criterion is: {errorCriterion}, and n = {n}.\n\nStart the estimate: \n")
 
 
-while True :    # main
+# main
+
+while True :
     previousApproximate = currentApproximate
-    currentValue = tylorPolynomial(count, 2 * PI)
+    currentValue = tylorPolynomial(loopCount, 2 * PI)
     currentApproximate = currentValue
     approximateEstimateError = Error.countApproximateEstimateError(currentApproximate, previousApproximate)
+    percentRelativeError = Error.countPercentRelativeError(trueValue, currentValue)
 
     if (approximateEstimateError < errorCriterion) :
-        count += 1
+        loopCount += 1
 
-        print(f"Times: {count}, \tcurrent value: {currentValue}, \tapproximate estimate error: {approximateEstimateError}.\n")
+        print(f"Times: {loopCount}, \ncurrent value: {currentValue}, \tapproximate estimate error: {approximateEstimateError} \tpercent relative error: {percentRelativeError}%.\n")
         print(f"Here is the error that we accept!!!")
-        print(f"Total use {count} times to get the result we want!")
+        print(f"Total use {loopCount} times to get the result we want!")
 
         break
     else :
-        count += 1
+        loopCount += 1
 
-    print(f"Times: {count}, \tcurrent value: {currentValue}, \tapproximate estimate error: {approximateEstimateError}.")
+    print(f"Times: {loopCount}, \ncurrent value: {currentValue}, \tapproximate estimate error: {approximateEstimateError} \tpercent relative error: {percentRelativeError}%.")
