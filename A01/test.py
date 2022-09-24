@@ -13,7 +13,7 @@ six = Symbol("6")
 twoK = Symbol("2k")
 dot = Symbol("...")
 
-print("The cosine tylor polynomial is: \n")
+print("The cos(0) tylor polynomial is: \n")
 pprint(1 - x ** 2 / factorial(two) + x ** 4 / factorial(four) - x ** 6 / factorial(six) + dot + ((-1) ** k * x ** (twoK) / factorial(twoK)))
 print()
 
