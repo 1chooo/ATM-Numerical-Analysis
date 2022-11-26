@@ -77,7 +77,7 @@ def substitute(a, n, b, x) :
     return
 
 def gauss(a, b, n, x, tol, er) :
-    s = []
+    s = [[], [], []]
 
     for i in range(0, n) :
         temp = a[i][0]
