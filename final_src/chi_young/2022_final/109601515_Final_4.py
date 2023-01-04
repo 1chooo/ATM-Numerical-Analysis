@@ -23,7 +23,7 @@ plt.show()
 y1= np.zeros(n, dtype=complex)  #轉完的資料為complex形式
 yf = fft(data)
 
-k=2                #晝、夜
+k=1                #晝、夜
 y1[0]=yf[0]
 y1[1:1+k-1]=yf[1:1+k-1]
 y1[n-k:n]=yf[n-k:n]         

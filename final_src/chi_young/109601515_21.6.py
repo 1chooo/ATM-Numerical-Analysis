@@ -19,6 +19,7 @@ def trapm(n):
     return trap
 print('解析解：', i_f(3) - i_f(0))
 print('trapezoidal:', trapm(4))
+print()
 err_trap = abs(((i_f(3) - i_f(0)) - trapm(4)) / (i_f(3) - i_f(0))) * 100
 print('trapezoidal_error:', err_trap, '%')
 #Simpson 1/3
