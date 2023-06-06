@@ -1,0 +1,87 @@
+site_name: Numerical Analysis ATM
+
+site_description: The Numerical Analysis Method I have learned in "Numerical Analysis" 2022 Fall | Prof. Shu-chih Yang (楊 舒芝)
+
+site_author: 1chooo(Hugo ChunHo Lin)
+
+site_url: https://1chooo.github.io/ATM-Numerical-Analysis/
+
+repo_url: https://github.com/1chooo/ATM-Numerical-Analysis
+
+copyright: Copyright &copy; 2023 1chooo (Hugo ChunHo Lin)
+
+theme:
+    palette:
+        scheme: preference
+    name: material
+    icon:
+        repo: fontawesome/brands/github
+    features:
+        - navigation.instant
+        - search.highlight
+        # - navigation.expand
+        # - navigation.tabs
+    # favicon: assets/favicon.ico
+    icon:
+        logo: logo
+
+plugins:
+    - search
+    - mkdocstrings
+    - git-revision-date
+    - mkdocs-jupyter:
+        include_source: True
+        execute: True
+        # validate_nb: True
+        #   ignore_h1_titles: True
+        #   execute_ignore: "*.ipynb"
+
+markdown_extensions:
+    - attr_list
+    - pymdownx.superfences
+    - pymdownx.highlight:
+        linenums: true
+    - toc:
+        permalink: true
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/1chooo
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/1chooo___
+    # - icon: fas fa-rss
+    #   link: https://sites.google.com/g.ncu.edu.tw/1chooo/portfolio?authuser=0
+    # - icon: fab fa-linkedin
+    #   link: https://www.linkedin.com/in/1chooo/
+    # conda_env: py38
+#     analytics:
+#         provider: google
+#         property: UA-XXXXXXXXX-X
+
+
+
+nav:
+    - Home: index.md
+      #- Installation: installation.md
+    - Usage: usage.md
+    - Example:
+        - quantum_computing/Code-Ch1.ipynb
+        - quantum_computing/Code-Ch2.ipynb
+        - quantum_computing/Code-Ch3.ipynb
+        - quantum_computing/Code-Ch4.ipynb
+        - quantum_computing/Code-Ch5.ipynb
+        - quantum_computing/Code-Ch6.ipynb
+        - quantum_computing/Code-Ch7.ipynb
+        - quantum_computing/Code-App1.ipynb
+    - Black Bos:
+        - black_box/constant_eq_0.ipynb
+        - black_box/constant_eq_1.ipynb
+        - black_box/balanced_in_eq_out.ipynb
+        - black_box/balanced_in_neq_out.ipynb
+        - black_box/index.md
+    - Contributing: contributing.md
+
+    - Reference: reference.md
+    - Report Issues: https://github.com/1chooo/Quantum-Oracle/issues
