@@ -18,6 +18,8 @@ theme:
         repo: fontawesome/brands/github
     features:
         - navigation.instant
+        - navigation.top
+        - navigation.tabs
         - search.highlight
         # - navigation.expand
         # - navigation.tabs
@@ -51,37 +53,38 @@ extra:
       link: https://github.com/1chooo
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/1chooo___
-    # - icon: fas fa-rss
-    #   link: https://sites.google.com/g.ncu.edu.tw/1chooo/portfolio?authuser=0
-    # - icon: fab fa-linkedin
-    #   link: https://www.linkedin.com/in/1chooo/
-    # conda_env: py38
-#     analytics:
-#         provider: google
-#         property: UA-XXXXXXXXX-X
 
 
 
 nav:
     - Home: index.md
-      #- Installation: installation.md
-    - Usage: usage.md
-    - Example:
-        - quantum_computing/Code-Ch1.ipynb
-        - quantum_computing/Code-Ch2.ipynb
-        - quantum_computing/Code-Ch3.ipynb
-        - quantum_computing/Code-Ch4.ipynb
-        - quantum_computing/Code-Ch5.ipynb
-        - quantum_computing/Code-Ch6.ipynb
-        - quantum_computing/Code-Ch7.ipynb
-        - quantum_computing/Code-App1.ipynb
-    - Black Bos:
-        - black_box/constant_eq_0.ipynb
-        - black_box/constant_eq_1.ipynb
-        - black_box/balanced_in_eq_out.ipynb
-        - black_box/balanced_in_neq_out.ipynb
-        - black_box/index.md
+    # - Installation: installation.md
+    # - Usage: usage.md
+    - Course Note:
+      - course_note/Week01.md
+      - course_note/Week02.md
+      - course_note/Week03.md
+      - course_note/Week04.md
+      - course_note/Week05.md
+      - course_note/Week06.md
+      - course_note/Week07.md
+      - course_note/Week08.md
+      - course_note/Week09.md
+      - course_note/Week10.md
+      - course_note/Week11.md
+      - course_note/Week12.md
+    - Assignment:
+      - assignment/a1.py
+    - Past Exam:
+      - 2022 Fall:
+        - past_exam/2022_fall/read_file.ipynb
+        - past_exam/2022_fall/22_fall_q1.ipynb
+        - past_exam/2022_fall/22_fall_q2.ipynb
+        - past_exam/2022_fall/22_fall_q3.ipynb
+        - past_exam/2022_fall/22_fall_q4.ipynb
+
+
     - Contributing: contributing.md
 
     - Reference: reference.md
-    - Report Issues: https://github.com/1chooo/Quantum-Oracle/issues
+    - Report Issues: https://github.com/1chooo/ATM-Numerical-Analysis/issues
