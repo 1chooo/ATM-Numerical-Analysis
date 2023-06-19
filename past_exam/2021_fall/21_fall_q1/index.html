@@ -2323,7 +2323,7 @@ Licensed under the Apache License, Version 2.0.
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
 <span class="c1">#讀資料</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;./data/obs_2021-03-18_12_00_00.SOUND&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">a</span><span class="p">:</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;./data/obs_2021-03-18_12_00_00.SOUND&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">a</span><span class="p">:</span>
     <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
         <span class="n">head</span><span class="o">=</span><span class="n">a</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span>
     <span class="n">data</span><span class="o">=</span><span class="n">a</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
@@ -2345,7 +2345,7 @@ Licensed under the Apache License, Version 2.0.
 import matplotlib.pyplot as plt
 
 #讀資料
-with open(r"./data/obs_2021-03-18_12_00_00.SOUND") as a:
+with open("./data/obs_2021-03-18_12_00_00.SOUND") as a:
     for i in range(2):
         head=a.readline()
     data=a.readlines()
@@ -2387,7 +2387,7 @@ plt.show()</div>
 Cell <span class="ansi-green-fg">In[1], line 5</span>
 <span class="ansi-green-intense-fg ansi-bold">      2</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> <span class="ansi-bold" style="color: rgb(0,0,255)">matplotlib</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">pyplot</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> <span class="ansi-bold" style="color: rgb(0,0,255)">plt</span>
 <span class="ansi-green-intense-fg ansi-bold">      4</span> <span style="color: rgb(95,135,135)">#讀資料</span>
-<span class="ansi-green-fg">----&gt; 5</span> <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">open</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">r</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">./data/obs_2021-03-18_12_00_00.SOUND</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg">)</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> a:
+<span class="ansi-green-fg">----&gt; 5</span> <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">open</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">./data/obs_2021-03-18_12_00_00.SOUND</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg">)</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> a:
 <span class="ansi-green-intense-fg ansi-bold">      6</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> i <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">range</span>(<span style="color: rgb(98,98,98)">2</span>):
 <span class="ansi-green-intense-fg ansi-bold">      7</span>         head<span style="color: rgb(98,98,98)">=</span>a<span style="color: rgb(98,98,98)">.</span>readline()
 

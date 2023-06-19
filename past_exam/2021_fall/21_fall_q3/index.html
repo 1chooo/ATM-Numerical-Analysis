@@ -2369,13 +2369,13 @@ import numpy as np</div>
                     </div>
                 </clipboard-copy>
             </div>
-            <div class="highlight-ipynb hl-python "><pre><span></span><span class="n">mat_contents</span> <span class="o">=</span> <span class="n">sio</span><span class="o">.</span><span class="n">loadmat</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;./data/cceqs.mat&quot;</span><span class="p">)</span>
+            <div class="highlight-ipynb hl-python "><pre><span></span><span class="n">mat_contents</span> <span class="o">=</span> <span class="n">sio</span><span class="o">.</span><span class="n">loadmat</span><span class="p">(</span><span class="s2">&quot;./data/cceqs.mat&quot;</span><span class="p">)</span>
 <span class="nb">sorted</span><span class="p">(</span><span class="n">mat_contents</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span>
 <span class="c1">#print(mat_contents)</span>
 <span class="n">Tc</span> <span class="o">=</span> <span class="n">mat_contents</span><span class="p">[</span><span class="s1">&#39;Tc&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
 <span class="n">e</span> <span class="o">=</span> <span class="n">mat_contents</span><span class="p">[</span><span class="s1">&#39;e&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
-<div id="cell-2" class="clipboard-copy-txt">mat_contents = sio.loadmat(r"./data/cceqs.mat")
+<div id="cell-2" class="clipboard-copy-txt">mat_contents = sio.loadmat("./data/cceqs.mat")
 sorted(mat_contents.keys())
 #print(mat_contents)
 Tc = mat_contents['Tc'][0]
