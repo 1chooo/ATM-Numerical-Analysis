@@ -31,6 +31,7 @@ jobs:
           pip install numpy
           pip install matplotlib
           pip install scipy
+          pip install netCDF4
           pip install mkdocs
           pip install mkdocs-material
           pip install pymdown-extensions
