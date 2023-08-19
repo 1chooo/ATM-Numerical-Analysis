@@ -57,7 +57,7 @@ extra:
 
 nav:
     - Home: index.md
-    # - Installation: installation.md
+    - Installation: environment_usage.md
     # - Usage: usage.md
     - Course Note:
       - course_note/Week01.md
@@ -86,7 +86,13 @@ nav:
       - A4:
         - assignment/a4/22_fall_a4_q1.ipynb
         - assignment/a4/22_fall_a4_q2.ipynb
-        - assignment/a4/22_fall_a4.ipynb
+        - assignment/a4/22_fall_a4_q3.ipynb
+        - assignment/a4/22_fall_a4_q4.ipynb
+        - assignment/a4/22_fall_a4_q5.ipynb
+        - assignment/a4/22_fall_a4_q6.ipynb
+        - assignment/a4/22_fall_a4_q7.ipynb
+        - assignment/a4/22_fall_a4_q8.ipynb
+        - assignment/a4/22_fall_a4_q9.ipynb
       - Power Spectrum:
         - assignment/power_spectrum/22_fall_FFT.ipynb
     - Past Exam:
