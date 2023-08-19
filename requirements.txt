@@ -5,6 +5,7 @@ backcall==0.2.0
 beautifulsoup4==4.12.2
 bleach==6.0.0
 certifi==2023.7.22
+cftime==1.6.2
 charset-normalizer==3.2.0
 click==8.1.7
 colorama==0.4.6
@@ -52,6 +53,7 @@ nbclient==0.8.0
 nbconvert==7.7.4
 nbformat==5.9.2
 nest-asyncio==1.5.7
+netCDF4==1.6.4
 numpy==1.25.2
 packaging==23.1
 pandas==2.0.3

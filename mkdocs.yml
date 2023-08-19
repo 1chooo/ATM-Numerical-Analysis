@@ -23,7 +23,7 @@ theme:
         - search.highlight
         # - navigation.expand
         # - navigation.tabs
-    # favicon: assets/favicon.ico
+    favicon: assets/icon.png
     icon:
         logo: logo
 
