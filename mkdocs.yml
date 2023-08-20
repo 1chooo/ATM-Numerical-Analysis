@@ -76,41 +76,41 @@ nav:
       - A1:
         - assignment/a1/22_fall_a1.py
       - A2:
-        - assignment/a2/22_fall_a2_q1.py
-        - assignment/a2/22_fall_a2_q2.py
-        - assignment/a2/22_fall_a2_q3.py
-        - assignment/a2/22_fall_a2_q4.py
-        - assignment/a2/22_fall_a2_q5.py
-        - assignment/a2/22_fall_a2_q6.py
-        - assignment/a2/22_fall_a2_q7.py
+        - assignment/a2/22_fall_a2_q1.ipynb
+        - assignment/a2/22_fall_a2_q2.ipynb
+        - assignment/a2/22_fall_a2_q3.ipynb
+        - assignment/a2/22_fall_a2_q4.ipynb
+        - assignment/a2/22_fall_a2_q5.ipynb
+        - assignment/a2/22_fall_a2_q6.ipynb
+        - assignment/a2/22_fall_a2_q7.ipynb
       - A3:
         - assignment/a3/22_fall_a3.py
       - A4:
-        - assignment/a4/22_fall_a4_q1.py
-        - assignment/a4/22_fall_a4_q2.py
-        - assignment/a4/22_fall_a4_q3.py
-        - assignment/a4/22_fall_a4_q4.py
-        - assignment/a4/22_fall_a4_q5.py
-        - assignment/a4/22_fall_a4_q6.py
-        - assignment/a4/22_fall_a4_q7.py
-        - assignment/a4/22_fall_a4_q8.py
-        - assignment/a4/22_fall_a4_q9.py
+        - assignment/a4/22_fall_a4_q1.ipynb
+        - assignment/a4/22_fall_a4_q2.ipynb
+        - assignment/a4/22_fall_a4_q3.ipynb
+        - assignment/a4/22_fall_a4_q4.ipynb
+        - assignment/a4/22_fall_a4_q5.ipynb
+        - assignment/a4/22_fall_a4_q6.ipynb
+        - assignment/a4/22_fall_a4_q7.ipynb
+        - assignment/a4/22_fall_a4_q8.ipynb
+        - assignment/a4/22_fall_a4_q9.ipynb
       - A5:
-        - assignment/a5/22_fall_a5_q1.py
-        - assignment/a5/22_fall_a5_q2.py
-        - assignment/a5/22_fall_a5_q3.py
-        - assignment/a5/22_fall_a5_q4.py
-        - assignment/a5/22_fall_a5_q5.py
+        - assignment/a5/22_fall_a5_q1.ipynb
+        - assignment/a5/22_fall_a5_q2.ipynb
+        - assignment/a5/22_fall_a5_q3.ipynb
+        - assignment/a5/22_fall_a5_q4.ipynb
+        - assignment/a5/22_fall_a5_q5.ipynb
       - A6:
-        - assignment/a6/22_fall_a6_q1.py
-        - assignment/a6/22_fall_a6_q2.py
-        - assignment/a6/22_fall_a6_q3.py
-        - assignment/a6/22_fall_a6_q4.py
-        - assignment/a6/22_fall_a6_q5.py
-        - assignment/a6/22_fall_a6_q6.py
-        - assignment/a6/22_fall_a6_q7.py
-        - assignment/a6/22_fall_a6_q8.py
-        - assignment/a6/22_fall_a6_q9.py
+        - assignment/a6/22_fall_a6_q1.ipynb
+        - assignment/a6/22_fall_a6_q2.ipynb
+        - assignment/a6/22_fall_a6_q3.ipynb
+        - assignment/a6/22_fall_a6_q4.ipynb
+        - assignment/a6/22_fall_a6_q5.ipynb
+        - assignment/a6/22_fall_a6_q6.ipynb
+        - assignment/a6/22_fall_a6_q7.ipynb
+        - assignment/a6/22_fall_a6_q8.ipynb
+        - assignment/a6/22_fall_a6_q9.ipynb
       - A7:
         - assignment/a7/22_fall_a7_q1.py
         - assignment/a7/22_fall_a7_q2.py
@@ -123,6 +123,7 @@ nav:
         - assignment/power_spectrum/fftnino3ls.ipynb
     - Past Exam:
       - 2022 Fall:
+        - past_exam/2022_fall/example.ipynb
         - past_exam/2022_fall/read_file.ipynb
         - past_exam/2022_fall/22_fall_q1.ipynb
         - past_exam/2022_fall/22_fall_q2.ipynb
