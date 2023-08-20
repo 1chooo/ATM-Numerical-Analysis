@@ -48,3 +48,4 @@ plt.figure(1)  #真實值(t space)
 plt.plot(x, y)
 
 plt.show()
+# %%
