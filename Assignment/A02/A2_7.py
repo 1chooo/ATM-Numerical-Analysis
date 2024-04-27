@@ -1,6 +1,6 @@
 # First through the machine eplison. (HW2-5)
 
-def machineEpsilon() :
+def get_machine_epsilon() :
     epsilon = 1.0
 
     while (epsilon > 0) :
@@ -10,7 +10,7 @@ def machineEpsilon() :
     return xmin
 
 
-def IterMeth(val, es, maxIterator) :
+def iter_math(val, es, maxIterator) :
     iter = 1
     sol = val
     ea = 100
@@ -35,8 +35,10 @@ def IterMeth(val, es, maxIterator) :
 
     return sol
 
-print("Machine eplison:", machineEpsilon())
+machine_epsilon = get_machine_epsilon()
+
+print(f"Machine eplison: {machine_epsilon}\n")
 print("What the value of \"a\" we picked up -> 25\n")
 print("Start evaluate: ")
 
-IterMeth(25, machineEpsilon(), 100)
+iter_math(25, machine_epsilon, 100)

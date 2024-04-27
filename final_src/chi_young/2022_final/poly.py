@@ -1,8 +1,9 @@
-import numpy as np
-import netCDF4
 import matplotlib.pyplot as plt
-from netCDF4 import Dataset as NetCDFFile 
+import netCDF4
+import numpy as np
 import pandas as pd
+from netCDF4 import Dataset as NetCDFFile
+
 
 #----------------regression------------------------
 def coefficient(x,y,order,n):
@@ -48,7 +49,7 @@ def Pivot(a,b,s,n,k):
         s[k] = dummy
         #print(a)
         #print(b)
-def Elimate(a,s,n,b,tol,er):
+def Elimate(a,s,n,b,tol):
     for k in range(0,n-1):#before elimanation,call pivot function
         Pivot(a,b,s,n,k)
         if abs(a[k,k]/s[k])<tol:#if a is too small(The computer judges as 0),er=-1
