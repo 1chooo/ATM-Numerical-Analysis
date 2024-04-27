@@ -218,7 +218,7 @@ def pivot(data, b, s, n, k) :
     return
 
 
-def eliminate(data, s, n, b, tol) :
+def eliminate(data, s, n, b, tol, er) :
     for k in range(n - 1) :
         pivot(data, b, s, n, k)
         print_2d_matrix(data)

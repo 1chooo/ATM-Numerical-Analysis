@@ -39,7 +39,7 @@ import matplotlib.pyplot as plt
 
 #讀資料
 mat_contents = sio.loadmat("./data/cceqs.mat")
-sorted(mat_contents.keys())
+mat_contents = sorted(mat_contents.keys())
 Tc = mat_contents['Tc'][0]
 e = mat_contents['e'][0]
 

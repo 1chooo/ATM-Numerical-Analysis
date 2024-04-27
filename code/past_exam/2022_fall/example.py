@@ -57,17 +57,9 @@ def phi(x,h):
 d = [phi(np.pi/4,h) for h in [np.pi/3,np.pi/6]]
 
 # %%
-d
-
-# %%
 N = len(d)
 D = np.zeros((N,N))
 D[:,0] = d
 for m in range(1,N):
     for n in range(m,N):
         D[n,m] = (4**m*D[n,m-1]-D[n-1,m-1])/(4**m-1)
-
-# %%
-D
-
-

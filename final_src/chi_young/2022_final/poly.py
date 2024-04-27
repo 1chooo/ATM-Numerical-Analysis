@@ -6,7 +6,7 @@ from netCDF4 import Dataset as NetCDFFile
 
 
 #----------------regression------------------------
-def coefficient(x,y,order,n):
+def coefficient(x, y, order, n):
     a = np.zeros((order+1,order+2)) #augmented matrix
     for i in range(0,order+1):
         for j in range(0,i+1):
@@ -49,7 +49,7 @@ def Pivot(a,b,s,n,k):
         s[k] = dummy
         #print(a)
         #print(b)
-def Elimate(a,s,n,b,tol):
+def elimate(a,s,n,b,tol, er):
     for k in range(0,n-1):#before elimanation,call pivot function
         Pivot(a,b,s,n,k)
         if abs(a[k,k]/s[k])<tol:#if a is too small(The computer judges as 0),er=-1
@@ -80,7 +80,7 @@ def Gauss(a,b,n,x,tol,er):#a is the matrix of coefficent of the linear system,b 
         for j in range(1,n):
             if abs(a[i,j])>s[i]:
                 s[i]=abs(a[i,j])
-    Elimate(a,s,n,b,tol,er)#call
+    elimate(a,s,n,b,tol, er)#call
     if er!=-1:
         xg =Substitute(a,n,b,x)#call Substitute function
         return xg #return the result
